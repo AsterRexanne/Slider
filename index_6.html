@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home page</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .topnav a{
+            float: left;
+            color: deeppink;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav a:hover{
+            background-color: blueviolet;
+            color: deepskyblue;
+        }
+        .topnav a.active{
+            background-color: yellowgreen;
+            color: darkcyan;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+        }
+        .carousel-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+        }
+        .myslides{
+            display: none;
+            max-height: 100%;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index_5.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Gallery.html">Gallery</a>
+    </div>
+    hello
+    <div class="carousel-container">
+        <img class="myslides" src="c:\Users\User\Desktop\Html\pic\pic1.PNG" height="300px" width="300px" alt="pic1">
+        <img class="myslides" src="c:\Users\User\Desktop\Html\pic\pic2.PNG" height="300px" width="300px" alt="pic2">
+        <img class="myslides" src="c:\Users\User\Desktop\Html\pic\pic3.PNG" height="300px" width="300px" alt="pic3">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
